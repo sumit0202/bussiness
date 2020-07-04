@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<style>
+			#aa{
+					background-color: yellow;
+					/*line-height: 40px;*/
+					line-height: 0.2cm;
+				}
+		</style>
+	</head>
+	<body>
+		<div id="aa">The default implementation returns BaselineResizeBehavior.OTHER, subclasses that support baseline should override appropriately. Subclasses should never return null; if the baseline can not be calculated return BaselineResizeBehavior.OTHER. Callers should first ask for the baseline using getBaseline and if a value >= 0 is returned use this method. It is acceptable for this method to return a value other than BaselineResizeBehavior.OTHER even if getBaseline returns a value less than 0.
+		</div>
+	</body>
+</html>
